@@ -10,25 +10,25 @@
   margin-bottom:0;
 }
 
-.tabcenter {
-  text-align:center;
-}
 
-.btn-modify {
-  margin-left:20px;
-}
-
+/*Modal*/
 .modal-title {
-  background-color: #007bff;
+  background-color: #297694;
   text-align:center;
 }
 
 .modal-header {
-  background-color: #007bff;
+  background-color: #297694;
   color:white;
   text-align:center;
 }
 
+#submit-btn {
+  background-color: #297694;
+  color:white;
+}
+
+/*Cards*/
 .cardh3 {
   background-color: #76BCD7;
   color:white;
@@ -45,13 +45,28 @@
   border:0;
   font-family: Futura;
 }
+
+/*Navbar*/
 .navbar {
   color: white;
   background-color: #297694;
+  border-bottom: solid 5px #76BCD7;
 }
 .nav-link {
   color:white;
 }
 .navbar-brand {
   color:white;
+}
+
+/* Footer */
+footer  {
+  width: 100%;
+  height: 50px;
+  background-color:#297694;
+  color:white;
+  border-top: solid 10px #76BCD7;
+  border-bottom: none;
+  position: relative;
+  text-align:center;
 }
