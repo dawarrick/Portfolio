@@ -4,7 +4,7 @@
 
 #### The portfolio will include some of my recent projects.
 
-#### I will include links to my Github and to my linkedIn profile.
+#### It will include links to my Github, linkedIn profile, resume, and to the project url and github repository.
 
 #### The website is mobile responsive.
 

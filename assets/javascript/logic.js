@@ -58,7 +58,12 @@ $('#myModal').on('submit', function (event) {
   clearInput();
 });
 
-
+//tooltip
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip({
+      placement : 'top'
+  });
+});
 
 //if they click on the update, pull up the modal populated with associated row
 

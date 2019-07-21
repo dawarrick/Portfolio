@@ -13,6 +13,8 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
   <!-- Added a link to our external stylesheet-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
@@ -24,6 +26,7 @@
   <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#">Deb Warrick</a>
+
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -36,17 +39,13 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">Specialties</a>
+            <a class="nav-link" href="#specialties">Specialties</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"
-              onclick="window.open('assets/images/myResume.pdf', '_blank', 'fullscreen=yes'); return false;">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a href="#myModal" data-toggle="modal" data-target="#myModal" class="nav-link">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -60,8 +59,8 @@
     <header class="jumbotron">
 
     </header>
-    <div class="card">
-      <div id="about" class="card-body cardh3">
+    <div class="card border-0">
+      <div class="card-body cardh3">
         <h3>Let me help you bridge the gap between your business and your computer systems!</h3>
       </div>
     </div>
@@ -70,54 +69,51 @@
 
       <div class="col-md-3">
         <div class="card">
-          <div class="card-body">
+          <div class="card-body card-about">
             <h4 class="card-title">About Me</h4>
             <p class="card-text">Hi, I'm Deb Warrick and I have been a professional software developer for 35 years
-              (yikes!).<br><br></p>
+              (yikes!).</p>
           </div>
         </div>
       </div>
       <div class="col-md-3">
         <div class="card">
-          <div class="card-body">
+          <div class="card-body card-about">
             <h4 class="card-title">Employment</h4>
-            <p class="card-text">I am currently a software developer at the University of Richmond.<br><br></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="card">
-          <div class="card-body">
-            <h4 class="card-title">Education</h4>
-            <p class="card-text">I received my bachelor's degree in Information Systems from the University of
-              Richmond.<br><br>
+            <p class="card-text">I am currently a software developer at the University of Richmond. I have worked in
+              numerous
+              industries over the years. Check out my
+              <a href="#"
+                onclick="window.open('assets/images/myResume.pdf', '_blank', 'fullscreen=yes'); return false;">Resumé</a>
+                 for more details.
             </p>
-
           </div>
         </div>
       </div>
-
-
-      <div class="col-md-3">
+      <div class="col-md-6">
         <div class="card">
-          <div class="card-body">
-            <h4 class="card-title">Boot Camp</h4>
-            <p class="card-text">I am currently enrolled in the University of Richmond/Trilogy full stack coding boot
+          <div class="card-body card-about">
+            <h4 class="card-title">Education/Boot Camp</h4>
+            <p class="card-text">I received my Bachelor's degree in Information Systems from the University of
+              Richmond. Primarily an Oracle developer for the past 18 years, I'm embarking on a new adventure
+              learning web development. I am currently enrolled in the University of Richmond full stack coding boot
               camp.
-              I'm learning new things every day!</p>
+              I'm learning new things every day, and loving it!</p>
           </div>
         </div>
       </div>
     </div>
+    <!--spacer for goto-->
+    <div id="specialties" class="spacer"> </div>
 
-    <div class="card">
-      <div id="about" class="card-body cardh4">
+    <div class="card border-0">
+      <div class="card-body cardh4">
         <h3>Let me tell you what I can do</h3>
       </div>
     </div>
 
     <!-- Page Features -->
-    <div class="row text-center" id="specialties">
+    <div class="row text-center">
 
       <div class="col-md-4">
         <div class="card h-100">
@@ -151,17 +147,19 @@
             <h4 class="card-title">System Development</h4>
             <p class="card-text">Build user-friendly, intuitive interfaces for your internal or external clients.
               Integrate with third-party software. Mobile responsive. Oracle Application Express(APEX), HTML, CSS,
-              JavaScript, jQuery,
-              Bootstrap, AJAX, Node.js
+              JavaScript, jQuery,Bootstrap, AJAX, Node.js
             </p>
           </div>
         </div>
       </div>
 
     </div>
-    <div id="projects">
-      <div class="card">
-        <div id="about" class="card-body cardh3">
+
+    <!--spacer for goto-->
+    <div id="projects" class="spacer"> </div>
+    <div>
+      <div class="card border-0">
+        <div class="card-body cardh3">
           <h3>Take a look at some of my recent projects!</h3>
         </div>
       </div>
@@ -182,7 +180,10 @@
                 schedules.</p>
             </div>
             <div class="card-footer">
-              <a href="https://dawarrick.github.io/TrainStation/" target="_blank" class="btn btn-project">Check it out!</a>
+              <a href="https://dawarrick.github.io/TrainStation/" target="_blank" class="btn btn-project">Check it
+                out!</a>
+              <a href="https://github.com/dawarrick/TrainStation.git" target="_blank" class="fab fa-github float-right"
+                data-toggle="tooltip" data-original-title="Github Repository"></a>
             </div>
           </div>
         </div>
@@ -197,10 +198,14 @@
               <h4 class="card-title">
                 <img src="assets/images/wTrivia.png" alt="Trivia">
               </h4>
-              <p class="card-text">Test your knowledge! Developed using timers and javascript objects.  Answer each question within the alloted time.</p>
+              <p class="card-text">Test your knowledge! Developed using timers and javascript objects. Answer each
+                question within the alloted time.</p>
             </div>
             <div class="card-footer">
-              <a href="https://dawarrick.github.io/TriviaGame/" target="_blank" class="btn btn-project">Check it out!</a>
+              <a href="https://dawarrick.github.io/TriviaGame/" target="_blank" class="btn btn-project">Check it
+                out!</a>
+              <a href="https://github.com/dawarrick/TriviaGame.git" target="_blank" class="fab fa-github float-right"
+                data-toggle="tooltip" data-original-title="Github Repository"></a>
             </div>
           </div>
         </div>
@@ -213,10 +218,14 @@
               <h4 class="card-title">
                 <img src="assets/images/wHangman.png" alt="Hangman">
               </h4>
-              <p class="card-text">Test your word skills! Developed using Javascript and Bootstrap, you will guess the randomly selected word.</p>
+              <p class="card-text">Test your word skills! Developed using Javascript and Bootstrap, you will guess the
+                randomly selected word.</p>
             </div>
             <div class="card-footer">
-              <a href="https://dawarrick.github.io/Word-Guess-Game/" target="_blank" class="btn btn-project">Check it out!</a>
+              <a href="https://dawarrick.github.io/Word-Guess-Game/" target="_blank" class="btn btn-project">Check it
+                out!</a>
+              <a href="https://github.com/dawarrick/Word-Guess-Game.git" target="_blank" class="fab fa-github float-right"
+                data-toggle="tooltip" data-original-title="Github Repository"></a>
             </div>
           </div>
         </div>
@@ -236,7 +245,10 @@
               <p class="card-text">A team project integrating Open Brewery DB and Google Maps APIs using Ajax</p>
             </div>
             <div class="card-footer">
-              <a href="https://dvavs.github.io/Firefoxes_Bootcamp_Proj1/" target="_blank" class="btn btn-project">Check it out!</a>
+              <a href="https://dvavs.github.io/Firefoxes_Bootcamp_Proj1/" target="_blank" class="btn btn-project">Check
+                it out!</a>
+              <a href="https://github.com/dvavs/Firefoxes_Bootcamp_Proj1" target="_blank" class="fab fa-github float-right"
+                data-toggle="tooltip" data-original-title="Github Repository"></a>
             </div>
           </div>
         </div>
@@ -246,19 +258,55 @@
       </div>
     </div>
 
+    <!--spacer for goto-->
+    <div id="contact" class="spacer"> </div>
 
-    <!-- Modal -->
-    <div id="myModal" class="modal fade" role="dialog">
+    <div class="container cl-contact">
+      <div class="row text-center mypic">
+        <div class="col-md-12">
+          <img class="img-fluid" src="assets/images/MtMarcy.png" alt="Deb on Mt. Marcy">
+        </div>
+      </div>
+
+      <div class="row text-center">
+        <div class="col-md-12">
+          <h1 class="contactme">Contact Me</h1>
+        </div>
+      </div>
+      <div class="row text-center emailme">
+        <div class="col-md-12 emailme">
+          <h2>Email:
+            <a href="mailto:dawarrick@yahoo.com">dawarrick@yahoo.com</h2></a>
+        </div>
+      </div>
+      <div class="row text-center contactme" style="margin-left:50px">
+        <div class="col-md-4">
+          <a href="https://github.com/dawarrick" target="_blank" class="fab fa-github" data-toggle="tooltip"
+            data-original-title="Github Repository"></a>
+        </div>
+        <div class="col-md-4 float-right">
+          <a href="https://www.linkedin.com/in/deb-warrick-ba851a24/" target="_blank" class="fab fa-linkedin"
+            data-toggle="tooltip" data-original-title="LinkedIn"></a>
+        </div>
+        <div class="col-md-4 contact-img" style="text-align:left;">
+          <a href="#" onclick="window.open('assets/images/myResume.pdf', '_blank', 'fullscreen=yes'); return false;">
+            <h2>Resumé</h2>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal   FUTURE USE -->
+    <!--div id="myModal" class="modal fade" role="dialog">
       <div class="modal-dialog">
 
-        <!-- Modal content-->
         <div class="modal-content">
           <div class="modal-header">
             <h4 class="modal-title">Contact Me</h4>
             <button type="button" class="close" data-dismiss="modal">&times;</button>
           </div>
           <div class="modal-body">
-            <!-- Entry Form -->
+            
             <form>
               <div class="form-group">
                 <label for="name-input">Name</label>
@@ -280,7 +328,7 @@
         </div>
 
       </div>
-    </div>
+    </div-->
   </div>
 
   <footer>
