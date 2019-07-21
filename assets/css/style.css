@@ -1,8 +1,15 @@
 
 /*css for my portfolio*/
 
+/*font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Slabo 27px', serif;
+font-family: 'Acme', sans-serif;
+font-family: 'DM Serif Text', serif;*/
+
 .jumbotron {
-  background-image: url("../images/bridgethegap2.jpg");
+  /*background-image: url("../images/bridgethegap2.jpg");*/
+  background-image: url("../images/GoldenGateBridge.jpeg");
   color: white;
   height : 300px;
   background-repeat: no-repeat;
@@ -14,9 +21,9 @@
   color: #297694;
 }
 
-
 .contactme {
   padding-top: 30px;
+  padding-bottom:20px;
   height:20rm;
 }
 
@@ -27,7 +34,6 @@
 }
 
 .emailme {
-  padding-top: 10px;
   height:20rm;
 }
 
@@ -86,13 +92,14 @@
 }
 
 .card-about {
- height:14rem;
+ height:18rem;
 }
 
 .project {
   margin-left:0;
   margin-right:0;
   padding:0;
+  font-family: 'Acme', sans-serif;;
 }
 
 .prow {
