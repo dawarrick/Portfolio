@@ -17,6 +17,10 @@ font-family: 'DM Serif Text', serif;*/
   margin-bottom:0;
 }
 
+.navbar-toggler {
+  color:white;
+}
+
 .cl-contact {
   color: #297694;
 }
@@ -91,10 +95,10 @@ font-family: 'DM Serif Text', serif;*/
   border-top:0;
 }
 
-.card-about {
- height:18rem;
+/*.card-about {
+ height:13rem;
 }
-
+*/
 .project {
   margin-left:0;
   margin-right:0;
@@ -114,16 +118,7 @@ font-family: 'DM Serif Text', serif;*/
   margin-left: auto;
   margin-right: auto;
   text-align:center;
-  /*margin: auto;    
-  display: block;
-  height:100%;
-  width:100%;*/
 }
-
-/*.col-sm-3 {
-  padding-left: 5px;
-  padding-right: 5px;
-}*/
 
 /*Navbar*/
 .navbar {
@@ -160,13 +155,3 @@ footer  {
   font-size: 2.5rem;
   color: #F0C58D;
 }
-
-
-/*.tooltip{
-  background:black;
-  color:white;
-  padding:5px;
-  box-shadow:0 0 10px 0 rgba(0, 0, 0, 1);
-  border-radius:10px;
-  opacity:0;
-}*/
