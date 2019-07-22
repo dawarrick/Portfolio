@@ -17,9 +17,6 @@ font-family: 'DM Serif Text', serif;*/
   margin-bottom:0;
 }
 
-.navbar-toggler {
-  color:white;
-}
 
 .cl-contact {
   color: #297694;
@@ -90,6 +87,10 @@ font-family: 'DM Serif Text', serif;*/
   color:white;
 }
 
+.btn-project:hover {
+  color:#76BCD7;
+}
+
 .card-footer {
   background-color:white;
   border-top:0;
@@ -118,16 +119,30 @@ font-family: 'DM Serif Text', serif;*/
 
 /*Navbar*/
 .navbar {
-  color: white;
-  background-color: #297694;
+  color: white !important;;
+  background-color: #297694 !important;
   border-bottom: solid 5px #76BCD7;
 }
-.nav-link {
-  color:white;
+
+
+.nav-link:hover {
+  color:#76BCD7;
 }
-.navbar-brand {
-  color:white;
+
+.nav-item:hover {
+  color:#76BCD7;
 }
+
+.navbar-brand:hover {
+  color:#76BCD7;
+}
+
+
+.navbar-toggler {
+  color:white;
+  border-color:white;
+}
+
 
 /* Footer */
 footer  {
