@@ -1,20 +1,18 @@
 
 /*css for my portfolio*/
 
-/*font-family: 'Open Sans Condensed', sans-serif;
+/*Additional fonts from Google
+font-family: 'Open Sans Condensed', sans-serif;
 font-family: 'Playfair Display', serif;
 font-family: 'Slabo 27px', serif;
 font-family: 'Acme', sans-serif;
 font-family: 'DM Serif Text', serif;*/
 
 
-.jumbotron {
-  background-image: url("../images/GoldenGateBridge.jpeg");
-  color: white;
+.img-main {
   height : 300px;
   background-repeat: no-repeat;
   width: 100%;
-  margin-bottom:0;
 }
 
 /*contact settings*/
@@ -42,40 +40,20 @@ font-family: 'DM Serif Text', serif;*/
   height:40px;
 }
 
-/*Modal*/
-.modal-title {
-  background-color: #297694;
-  text-align:center;
-}
-
-.modal-header {
-  background-color: #297694;
-  color:white;
-  text-align:center;
-}
-
-#submit-btn {
-  background-color: #297694;
-  color:white;
-}
-
 /*Cards*/
-.cardh3 {
-  background-color: #76BCD7;
+.cardh3 { 
   color:white;
   text-align:center;
   margin-top:30px;
   margin-bottom: 0;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
-
-.cardh4 {
+.orange {
   background-color: #F0C58D;
-  color:white;
-  text-align:center;
-  margin-bottom:0px;
-  margin-top:30px;
-  font-family: Futura;
+}
+
+.lightblue {
+  background-color: #76BCD7;
 }
 
 /*project section settings*/
@@ -122,7 +100,7 @@ font-family: 'DM Serif Text', serif;*/
 
 /*Navbar*/
 .navbar {
-  color: white !important;;
+  color: white;
   background-color: #297694 !important;
   border-bottom: solid 5px #76BCD7;
 }
@@ -130,7 +108,6 @@ font-family: 'DM Serif Text', serif;*/
 ul.navbar-nav > li:hover {
   background-color: #76BCD7;
 }
-
 
 /* Footer */
 footer  {
@@ -144,7 +121,7 @@ footer  {
   text-align:center;
 }
 
-/*font awesome*/
+/*font awesome links*/
 .fa-linkedin{
   font-size: 2.5rem;
   color: #F0C58D;
