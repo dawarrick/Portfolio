@@ -8,7 +8,6 @@ font-family: 'Acme', sans-serif;
 font-family: 'DM Serif Text', serif;*/
 
 .jumbotron {
-  /*background-image: url("../images/bridgethegap2.jpg");*/
   background-image: url("../images/GoldenGateBridge.jpeg");
   color: white;
   height : 300px;
@@ -17,7 +16,7 @@ font-family: 'DM Serif Text', serif;*/
   margin-bottom:0;
 }
 
-
+/*contact settings*/
 .cl-contact {
   color: #297694;
 }
@@ -78,6 +77,8 @@ font-family: 'DM Serif Text', serif;*/
   font-family: Futura;
 }
 
+/*project section settings*/
+
 .card-project {
   background-color: #76BCD7;
 }
@@ -124,23 +125,8 @@ font-family: 'DM Serif Text', serif;*/
   border-bottom: solid 5px #76BCD7;
 }
 
-
-.nav-link:hover {
-  color:#76BCD7;
-}
-
-.nav-item:hover {
-  color:#76BCD7;
-}
-
-.navbar-brand:hover {
-  color:#76BCD7;
-}
-
-
-.navbar-toggler {
-  color:white;
-  border-color:white;
+ul.navbar-nav > li:hover {
+  background-color: #76BCD7;
 }
 
 
