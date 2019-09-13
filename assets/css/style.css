@@ -46,7 +46,7 @@ font-family: 'DM Serif Text', serif;*/
   text-align:center;
   margin-top:30px;
   margin-bottom: 0;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .card-about { 
@@ -88,6 +88,19 @@ font-family: 'DM Serif Text', serif;*/
 .card-footer {
   background-color:white;
   border-top:0;
+}
+
+#classwork {
+  background-color: #e37368;
+  margin-top:0px;
+  color:white;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.pbootcamp {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .project {
