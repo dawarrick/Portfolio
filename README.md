@@ -1,8 +1,8 @@
-# Portfolio - Deb Warrick
+# Portfolio - Deb Warrick - https://debwarrick.com
 
-### Newly designed portfolio to showcase my recent work and every increasing skillset.
+### This portfolio represents my work experience, as well as the projects I'm doing as part of the University of Richmond Coding Boot Camp.
 
-#### Added information about the University of Richmond Coding Bootcamp.
+#### It is pretty self-explanatory, so I will not repeat it here.
 
 #### The portfolio includes some of my recent projects, as well as contact information.
 
@@ -12,6 +12,5 @@
 
 #### Using font-awesome and Google fonts for some new looks
 
-#### https://debwarrick.com
 
 ##### September, 2019
